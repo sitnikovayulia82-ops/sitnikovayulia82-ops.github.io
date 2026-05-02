@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Юлия Ситникова – Психолог | Коуч</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #f7f5f2;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem 4rem;
+  }
+  .page {
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 2.5rem 1.75rem 3rem;
+    color: #1a1a1a;
+  }
+  .avatar {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #e8c5d4, #c8b8e8);
+    margin: 0 auto 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #7a5fa0;
+    border: 3px solid #f0eaf8;
+    overflow: hidden;
+  }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .name {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #111;
+  }
+  .subtitle {
+    text-align: center;
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  .bio {
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: center;
+    color: #222;
+    margin-bottom: 1rem;
+  }
+  .bio b { font-weight: 600; }
+  .list {
+    list-style: none;
+    margin: 0.5rem 0 1.25rem;
+    padding: 0;
+  }
+  .list li {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #222;
+    padding-left: 0;
+  }
+  .list li::before {
+    content: "◆ ";
+    color: #a07abf;
+    font-size: 10px;
+    vertical-align: middle;
+  }
+  .bold-block {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.8;
+    margin: 1.25rem 0 1.75rem;
+    color: #111;
+  }
+  .chevron {
+    text-align: center;
+    font-size: 24px;
+    color: #bbb;
+    margin: 0.5rem 0 1.75rem;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 17px 20px;
+    border-radius: 50px;
+    border: 1.5px solid #d0c8dc;
+    background: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #555;
+    cursor: pointer;
+    margin-bottom: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .btn:hover { background: #f7f2ff; border-color: #a07abf; color: #7a5fa0; }
+  .btn.primary {
+    background: linear-gradient(135deg, #c084a8, #9f7abe);
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+  }
+  .btn.primary:hover { opacity: 0.88; }
+  hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 1.75rem 0;
+  }
+  .section-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #111;
+  }
+  .section-line {
+    font-size: 15px;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 6px;
+  }
+  .footer {
+    text-align: center;
+    font-size: 11px;
+    color: #ccc;
+    margin-top: 2rem;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="avatar"><img src="https://i.ibb.co/s95qBW1H/image.jpg" alt="Юлия Ситникова"></div>
+
+  <p class="name">Юлия Ситникова</p>
+  <p class="subtitle">Психолог перемен</p>
+
+  <div class="bio">
+    <p>Привет, меня зовут Юлия.</p>
+    <br>
+    <p>Я – психолог, специализирующийся на <b>кризисах, жизненных переменах и выходе из сложных ситуаций.</b></p>
+    <br>
+    <p>Работаю с людьми, которые оказались на перепутье: уходят из отношений, меняют карьеру, переезжают в другую страну или просто чувствуют, что прежняя жизнь больше не подходит.</p>
+    <br>
+    <p>Я работаю онлайн – с клиентами по всему миру, <b>на русском и английском языках.</b></p>
+    <br>
+    <div style="display:flex;align-items:center;gap:10px;margin:1.25rem 0 1rem;">
+  <div style="flex:1;height:1px;background:linear-gradient(to right,transparent,#c8b8e8);"></div>
+  <span style="color:#a07abf;font-size:14px;">◆</span>
+  <div style="flex:1;height:1px;background:linear-gradient(to left,transparent,#c8b8e8);"></div>
+</div><p>В своей работе я соединяю:</p>
+  </div>
+
+  <ul class="list">
+    <li>разные техники, чтобы найти решение, которое действительно работает для вас</li>
+    <li>поддержку в моменты острого кризиса</li>
+  </ul>
+
+  <div class="bio">
+    <p>Я помогаю найти ясность, вернуть себе опору и сделать следующий шаг – даже когда кажется, что выхода нет.</p>
+  </div>
+
+  <div class="bold-block">
+    Я НЕ ОБЕЩАЮ МГНОВЕННЫХ РЕШЕНИЙ. Но я уверена, что в пространстве нашей работы вы сможете быть собой, разобраться в своих чувствах и найти новый путь 🙏
+  </div>
+
+  <a class="btn primary" href="https://t.me/yuliasitnikova_ru" target="_blank">
+    Записаться на бесплатную консультацию
+  </a>
+
+  <a class="btn" href="https://www.instagram.com/yuliasitnikova_psy" target="_blank">
+    Instagram – @yuliasitnikova_psy
+  </a>
+
+  <a class="btn" href="https://www.facebook.com/share/1AjaYSbsfz/" target="_blank">
+    Facebook
+  </a>
+
+  <a class="btn" href="https://wa.me/34695184432" target="_blank">
+    WhatsApp – написать мне
+  </a>
+
+  <hr>
+
+  <p class="section-title" style="text-align:center;">Обо мне и формате работы</p>
+  <p class="section-line">Завершаю профессиональную подготовку в Институте психотерапии и медицинской психологии им. Б. Д. Карвасарского (Санкт-Петербург).</p>
+  <div style="margin-top:1rem;display:flex;flex-direction:column;gap:10px;">
+    <div style="display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:12px;border:1px solid #e8e0f0;background:#faf7ff;">
+      <span style="font-size:20px;">🤝</span>
+      <div>
+        <p style="font-size:13px;font-weight:600;color:#7a5fa0;margin:0 0 2px;">Первая встреча</p>
+        <p style="font-size:14px;color:#333;margin:0;">Ознакомительная, без оплаты</p>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:12px;border:1px solid #e8e0f0;background:#faf7ff;">
+      <span style="font-size:20px;">💰</span>
+      <div>
+        <p style="font-size:13px;font-weight:600;color:#7a5fa0;margin:0 0 2px;">Стоимость сессии (60 мин)</p>
+        <p style="font-size:14px;color:#333;margin:0;">1000 ₽ / 15 € – специальные условия в рамках практики</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="footer">yuliasitnikova • psychologist</p>
+
+</div>
+</body>
+</html>
